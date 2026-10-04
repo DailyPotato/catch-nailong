@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffe86a">
+  <meta name="description" content="各式奶龙、奶蛙藏成一堆！点选三个相同造型消除，守住七格收集槽，摇一摇，把奶龙抓回家。">
+  <title>抓奶龙 · 开锅啦！</title>
+  <link rel="icon" href="assets/nailong-01.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="engine.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="抓奶龙首页"><img src="assets/nailong-01.png" width="44" height="44" alt=""><span>抓奶龙<small>开锅啦！</small></span></a>
+      <div class="header-actions"><button id="sound" class="icon-button" aria-label="打开音效" aria-pressed="false">♫<span>音效关</span></button><button id="help" class="icon-button" aria-label="查看玩法">?<span>怎么玩</span></button></div>
+    </header>
+    <main class="game-layout">
+      <aside class="level-panel">
+        <p class="eyebrow">奶龙抓捕计划</p>
+        <h1>一只、两只…<br><em>三只抱走！</em></h1>
+        <canvas id="mascot" width="400" height="400" aria-label="软萌奶龙" role="img"></canvas>
+        <p class="mascot-caption">今天也要把快乐抓回家</p>
+        <nav class="level-list" aria-label="选择关卡">
+          <button data-level="0" class="level-button selected"><span class="level-number">01</span><span>初次见面<small>12 种 · 36 只</small></span><span class="level-check">●</span></button>
+          <button data-level="1" class="level-button"><span class="level-number">02</span><span>奶龙派对<small>24 种 · 144 只</small></span><span class="level-check"></span></button>
+          <button data-level="2" class="level-button"><span class="level-number">03</span><span>奶龙大本营<small>32 种 · 288 只</small></span><span class="level-check"></span></button>
+        </nav>
+      </aside>
+      <section class="play-panel" aria-label="游戏区">
+        <div class="round-header"><div><p id="round-label" class="eyebrow">第一锅 · 12 种造型</p><h2 id="round-title">初次见面</h2></div><div class="round-actions"><div id="timer" class="timer" aria-label="剩余时间"><span>◷</span><strong>02:00</strong></div><button id="pause" class="pause-button" aria-label="暂停游戏">Ⅱ</button></div></div>
+        <div class="bowl-wrap">
+          <div class="bowl-rim"><span class="bowl-label">NAILONG CLUB</span></div>
+          <canvas id="board" width="540" height="440" tabindex="0" role="application" aria-label="物品堆。用方向键选择可抓物品，按回车抓取。"></canvas>
+          <div id="overlay" class="game-overlay" aria-live="polite"></div>
+          <span class="bowl-spark spark-one">✦</span><span class="bowl-spark spark-two">✧</span>
+        </div>
+        <div class="tray-top"><span id="tray-label">收集槽 <b>0 / 7</b></span><span id="progress-label">已抱走 0 / 36</span></div>
+        <div id="tray" class="tray" aria-label="七格收集槽"></div>
+        <div class="progress-track" role="progressbar" aria-label="消除进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress"></div></div>
+        <div class="tools"><button id="undo" class="tool-button"><span class="tool-icon">↶</span><span>撤回 <b>3</b></span></button><button id="shake" class="tool-button shake-button"><span class="tool-icon">↔</span><span>摇一摇 <b>3</b></span></button><button id="hint" class="tool-button"><span class="tool-icon">✧</span><span>提示 <b>3</b></span></button></div>
+        <p id="message" class="message" role="status">点相同的三只，把奶龙抱回家。</p>
+      </section>
+      <aside class="tips-panel">
+        <div class="tip-card"><span class="tip-badge">抓捕小抄</span><h3>眼疾，手也快</h3><ol><li><b>找相同</b><p>点选露在上面的物品，三个相同造型自动消除。</p></li><li><b>留空位</b><p>收集槽只有七格，优先凑齐已有的一对。</p></li><li><b>翻一翻</b><p>卡片可以自由叠放。被压住了？摇一摇，翻动上下层。</p></li></ol><div class="tip-note">目标：在倒计时结束前<br>把这一锅全部清空。</div></div>
+        <div class="keyboard-note"><span>电脑也能玩</span><p>方向键选择 · 回车抓取<br>P 暂停 · 空格摇一摇</p></div>
+      </aside>
+    </main>
+    <footer>奶龙同人趣味小游戏 · 非官方作品<button id="sources" class="footer-link">图片来源</button></footer>
+  </div>
+  <dialog id="help-dialog" aria-labelledby="help-title"><button class="dialog-close" aria-label="关闭玩法">×</button><span class="dialog-symbol">✦</span><h2 id="help-title">抓奶龙，记住这三招</h2><p>点选露在上面的物品，放进下方的七格收集槽。<strong>三个相同会自动消除</strong>，把整锅清空就过关！</p><p>优先抓已经收集的物品。被压住的不能直接抓，<strong>摇一摇</strong>可以翻动整锅；<strong>撤回</strong>恢复上一步；<strong>提示</strong>会圈出一只可抓的物品。每种道具每关可用三次。</p><p>手机直接点物品。电脑可用方向键和回车，P 暂停，空格摇一摇。切到其他窗口会自动暂停。</p><button class="primary-button dialog-done">记住了，开抓！</button></dialog>
+  <dialog id="sources-dialog" aria-labelledby="sources-title"><button class="dialog-close" aria-label="关闭图片来源">×</button><h2 id="sources-title">图片来源</h2><p>游戏使用互联网上已有的奶龙、奶蛙图片。角色与图片版权归原权利人所有。</p><ul id="source-list"></ul></dialog>
+</body>
+</html>

@@ -1,0 +1,268 @@
+{
+  "method": "Downloaded existing online images. No image generation, recoloring, cropping, or other alteration performed. Originals retained under from filenames. Selected files are byte-identical copies.",
+  "selection": [
+    {
+      "name": "奶龙·撒欢",
+      "file": "nailong-01.png",
+      "from": "source_02.png",
+      "source": "https://i.kym-cdn.com/photos/images/newsfeed/003/114/008/24c.png",
+      "page": "https://knowyourmeme.com/memes/nailong/photos",
+      "character": "奶龙"
+    },
+    {
+      "name": "奶龙·翻白眼",
+      "file": "nailong-02.png",
+      "from": "source_03.png",
+      "source": "https://i.kym-cdn.com/photos/images/newsfeed/003/113/964/a89.png",
+      "page": "https://knowyourmeme.com/memes/nailong/photos",
+      "character": "奶龙"
+    },
+    {
+      "name": "奶龙·吐舌",
+      "file": "nailong-03.png",
+      "from": "source_04.png",
+      "source": "https://i.kym-cdn.com/photos/images/newsfeed/003/113/963/c0e.png",
+      "page": "https://knowyourmeme.com/memes/nailong/photos",
+      "character": "奶龙"
+    },
+    {
+      "name": "奶龙·睡觉",
+      "file": "nailong-04.png",
+      "from": "source_05.png",
+      "source": "https://i.kym-cdn.com/photos/images/newsfeed/003/113/961/441.png",
+      "page": "https://knowyourmeme.com/memes/nailong/photos",
+      "character": "奶龙"
+    },
+    {
+      "name": "奶龙·馋嘴",
+      "file": "nailong-05.png",
+      "from": "nailong_extra_01.jpg",
+      "source": "https://picx.zhimg.com/v2-af67fc92ef40e1be81297da93a429f1a_720w.jpg?source=172ae18b",
+      "page": "https://zhuanlan.zhihu.com/p/460642591",
+      "character": "奶龙"
+    },
+    {
+      "name": "奶蛙·趴趴",
+      "file": "nailong-06.jpg",
+      "from": "nailong_extra_02.jpg",
+      "source": "https://k.sinaimg.cn/n/sinakd20240807ac/775/w397h378/20240807/77f4-c35b3db917df74bca18784f28f95229a.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+      "page": "https://k.sina.com.cn/article_3058542253_b64da6ad04001d5s2.html",
+      "character": "奶蛙"
+    },
+    {
+      "name": "奶蛙·西装",
+      "file": "naiwa-01.jpg",
+      "from": "candidate_nailong_04.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/1a3dc8c7531025275e8625ba9b6e38cc.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/1a3dc8c7531025275e8625ba9b6e38cc.jpg",
+      "character": "奶蛙"
+    },
+    {
+      "name": "奶蛙·倒立",
+      "file": "naiwa-02.jpg",
+      "from": "candidate_nailong_07.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/2EC91AB5920CA4C4DA480F5EFD0DA10E.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/2EC91AB5920CA4C4DA480F5EFD0DA10E.jpg",
+      "character": "奶蛙"
+    },
+    {
+      "name": "奶蛙·叉腰",
+      "file": "naiwa-03.jpg",
+      "from": "candidate_nailong_10.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/522b5f888cffd66abd8bd705e6598bad.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/522b5f888cffd66abd8bd705e6598bad.jpg",
+      "character": "奶蛙"
+    },
+    {
+      "name": "奶龙·鸭嘴",
+      "file": "nailong-dt-01.gif",
+      "source": "https://c-ssl.duitang.com/uploads/blog/202106/16/20210616091248_63602.thumb.1000_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1346707198",
+      "character": "奶龙",
+      "from": "nailong-dt-01.gif"
+    },
+    {
+      "name": "奶龙·恶魔",
+      "file": "nailong-dt-02.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202303/27/20230327214715_bf542.thumb.1000_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1461783992",
+      "character": "奶龙",
+      "from": "nailong-dt-02.gif"
+    },
+    {
+      "name": "奶龙·投降",
+      "file": "nailong-dt-03.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202303/27/20230327214635_fdc7c.thumb.1000_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1461783886",
+      "character": "奶龙",
+      "from": "nailong-dt-03.gif"
+    },
+    {
+      "name": "奶龙·聚光灯",
+      "file": "nailong-dt-04.gif",
+      "source": "https://c-ssl.duitang.com/uploads/blog/202105/17/20210517192510_95b27.thumb.1000_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1341457249",
+      "character": "奶龙",
+      "from": "nailong-dt-04.gif"
+    },
+    {
+      "name": "奶龙·委屈",
+      "file": "nailong-dt-05.gif",
+      "source": "https://c-ssl.duitang.com/uploads/blog/202208/09/20220809093031_bf688.gif",
+      "page": "https://www.duitang.com/blog/?id=1417979857",
+      "character": "奶龙",
+      "from": "nailong-dt-05.gif"
+    },
+    {
+      "name": "奶龙·飞吻",
+      "file": "nailong-dt-06.gif",
+      "source": "https://c-ssl.duitang.com/uploads/blog/202203/03/20220303112545_a6c10.gif",
+      "page": "https://www.duitang.com/blog/?id=1389131119",
+      "character": "奶龙",
+      "from": "nailong-dt-06.gif"
+    },
+    {
+      "name": "奶龙·脸红",
+      "file": "nailong-dt-07.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202406/14/JOS39zzYiWlGALx.thumb.1000_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1527318499",
+      "character": "奶龙",
+      "from": "nailong-dt-07.gif"
+    },
+    {
+      "name": "奶龙·思考",
+      "file": "nailong-dt-08.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202203/03/20220303112714_ea04a.thumb.400_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1389131964",
+      "character": "奶龙",
+      "from": "nailong-dt-08.gif"
+    },
+    {
+      "name": "奶龙·发誓",
+      "file": "nailong-dt-09.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202203/03/20220303112713_5337a.thumb.400_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1389130974",
+      "character": "奶龙",
+      "from": "nailong-dt-09.gif"
+    },
+    {
+      "name": "奶龙·吃惊",
+      "file": "nailong-dt-10.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202203/03/20220303113119_6a9d2.thumb.400_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1389131964",
+      "character": "奶龙",
+      "from": "nailong-dt-10.gif"
+    },
+    {
+      "name": "奶龙·跳跃",
+      "file": "nailong-dt-11.gif",
+      "source": "https://c-ssl.duitang.com/uploads/blog/202208/11/20220811190226_e1e5b.gif",
+      "page": "https://www.duitang.com/blog/?id=1418564651",
+      "character": "奶龙",
+      "from": "nailong-dt-11.gif"
+    },
+    {
+      "name": "奶龙·扭扭",
+      "file": "nailong-dt-12.gif",
+      "source": "https://c-ssl.duitang.com/uploads/blog/202203/03/20220303112146_b2a37.gif",
+      "page": "https://www.duitang.com/blog/?id=1389130661",
+      "character": "奶龙",
+      "from": "nailong-dt-12.gif"
+    },
+    {
+      "name": "奶龙·眯眼",
+      "file": "nailong-dt-13.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202305/20/V2So122vimB4bJB.thumb.1000_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1470800462",
+      "character": "奶龙",
+      "from": "nailong-dt-13.gif"
+    },
+    {
+      "name": "奶龙·爱心",
+      "file": "nailong-dt-14.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202203/03/20220303112710_fe6d6.thumb.400_0.gif",
+      "page": "https://www.duitang.com/blog/?id=1389130974",
+      "character": "奶龙",
+      "from": "nailong-dt-14.gif"
+    },
+    {
+      "name": "奶龙·耳机",
+      "file": "nailong-dt-15.jpg",
+      "source": "https://c-ssl.duitang.com/uploads/blog/202106/04/20210604135900_1b0a4.jpeg",
+      "page": "https://www.duitang.com/blog/?id=1344484835",
+      "character": "奶龙",
+      "from": "nailong-dt-15.jpg"
+    },
+    {
+      "name": "奶龙·握拳",
+      "file": "nailong-dt-16.gif",
+      "source": "https://c-ssl.dtstatic.com/uploads/blog/202203/03/20220303112435_13107.thumb.400_0.gif",
+      "page": "https://www.duitang.com/blogs/tag/?name=奶龙表情包",
+      "character": "奶龙",
+      "from": "nailong-dt-16.gif"
+    },
+    {
+      "name": "奶蛙·长发",
+      "file": "meme-extra-07.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/3e458fec9f5579feacc8f07b1348f1cb.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/3e458fec9f5579feacc8f07b1348f1cb.jpg",
+      "character": "奶蛙",
+      "from": "meme-extra-07.jpg"
+    },
+    {
+      "name": "奶蛙·唐装",
+      "file": "meme-extra-08.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/411FA1BE7F709A95AF5060D15217801F.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/411FA1BE7F709A95AF5060D15217801F.jpg",
+      "character": "奶蛙",
+      "from": "meme-extra-08.jpg"
+    },
+    {
+      "name": "奶蛙·粽子",
+      "file": "meme-extra-14.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/7121A97E5877372581D658620B3703F8.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/7121A97E5877372581D658620B3703F8.jpg",
+      "character": "奶蛙",
+      "from": "meme-extra-14.jpg"
+    },
+    {
+      "name": "奶蛙·僧袍",
+      "file": "meme-extra-17.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/7491282117e61e5fcc0f4872bc0151d5.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/7491282117e61e5fcc0f4872bc0151d5.jpg",
+      "character": "奶蛙",
+      "from": "meme-extra-17.jpg"
+    },
+    {
+      "name": "奶蛙·肌肉",
+      "file": "meme-extra-06.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/3ad61068fb49ee9fdcae1f3ce05fd5fc.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/3ad61068fb49ee9fdcae1f3ce05fd5fc.jpg",
+      "character": "奶蛙",
+      "from": "meme-extra-06.jpg"
+    },
+    {
+      "name": "奶蛙·崩溃",
+      "file": "meme-extra-24.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/9A640FCE9DD95746A6254806682D3395.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/9A640FCE9DD95746A6254806682D3395.jpg",
+      "character": "奶蛙",
+      "from": "meme-extra-24.jpg"
+    },
+    {
+      "name": "奶蛙·指人",
+      "file": "meme-extra-25.jpg",
+      "source": "https://raw.githubusercontent.com/GGGeeeooorrrgggeee/nailong-memes/main/images/B25A9251B83C7B06077223A9D4A546D0.jpg",
+      "page": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/main/images/B25A9251B83C7B06077223A9D4A546D0.jpg",
+      "character": "奶蛙",
+      "from": "meme-extra-25.jpg"
+    }
+  ],
+  "notes": [
+    "Naiwa refers here to the established yellow long-bodied green-eyed internet meme character, confirmed by source repository and CyberLink examples.",
+    "All game images are downloaded original JPEG/PNG/GIF files with their source backgrounds and animations preserved.",
+    "Nailong-05 contains readable original Chinese caption 馋的口水直流.",
+    "Unused AI sprite sheet and unrelated desktop pet candidates are excluded.",
+    "Expanded to 32 distinct character images. QA contact sheets are inspection-only and are not game assets."
+  ]
+}
